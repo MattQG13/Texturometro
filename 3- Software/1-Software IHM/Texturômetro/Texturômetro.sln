@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texturometro", "Texturômetro\Texturometro.csproj", "{B1B2F069-2D60-4197-817E-A75C72C69B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = Software de análise de textura
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B2F069-2D60-4197-817E-A75C72C69B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B2F069-2D60-4197-817E-A75C72C69B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B2F069-2D60-4197-817E-A75C72C69B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B2F069-2D60-4197-817E-A75C72C69B08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {658F78F1-F25B-432B-AEC8-2EA1AD2EBCFE}
+	EndGlobalSection
+EndGlobal

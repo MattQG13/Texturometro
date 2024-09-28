@@ -1,0 +1,21 @@
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.csproj.SuggestedBindingRedirects.cache
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.Properties.Resources.resources
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.csproj.GenerateResource.cache
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\mateus\Desktop\Classes\Classes\bin\Debug\Classes.exe.config
+C:\Users\mateus\Desktop\Classes\Classes\bin\Debug\Classes.exe
+C:\Users\mateus\Desktop\Classes\Classes\bin\Debug\Classes.pdb
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.exe
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.pdb
+C:\Users\mateus\Desktop\Classes\Classes\obj\Debug\Classes.TexturometroForms.resources
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\bin\Debug\Classes.exe.config
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\bin\Debug\Classes.exe
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\bin\Debug\Classes.pdb
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\obj\Debug\Classes.Properties.Resources.resources
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\obj\Debug\Classes.TexturometroForms.resources
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\obj\Debug\Classes.csproj.GenerateResource.cache
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\obj\Debug\Classes.exe
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3-Software\1-Software IHM\Classes\Classes\obj\Debug\Classes.pdb
