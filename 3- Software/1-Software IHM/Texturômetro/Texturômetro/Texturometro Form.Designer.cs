@@ -35,18 +35,7 @@
             this.pnBackground = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-#if DEBUG
-            this.btnEnv = new System.Windows.Forms.Button();
-            this.txbMensEnv = new System.Windows.Forms.RichTextBox();
-            this.txbMensRecebida = new System.Windows.Forms.RichTextBox();
-#endif
             this.panel1 = new System.Windows.Forms.Panel();
-#if DEBUG
-
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.lbVel = new System.Windows.Forms.Label();
-#endif
             this.btnUP = new System.Windows.Forms.Button();
             this.btnDN = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
@@ -112,11 +101,6 @@
             // 
             // panel2
             // 
-#if DEBUG
-            this.panel2.Controls.Add(this.btnEnv);
-            this.panel2.Controls.Add(this.txbMensEnv);
-            this.panel2.Controls.Add(this.txbMensRecebida);
-#endif
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lbPosition);
@@ -127,54 +111,9 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(766, 194);
             this.panel2.TabIndex = 1;
-#if DEBUG
             // 
-            // btnEnv
+            // panel1
             // 
-            this.btnEnv.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnEnv.Location = new System.Drawing.Point(332, 31);
-            this.btnEnv.Name = "btnEnv";
-            this.btnEnv.Size = new System.Drawing.Size(77, 26);
-            this.btnEnv.TabIndex = 17;
-            this.btnEnv.Text = "Enviar";
-            this.btnEnv.UseVisualStyleBackColor = true;
-            this.btnEnv.Click += new System.EventHandler(this.btnEnv_Click);
-            // 
-            // txbMensEnv
-            // 
-            this.txbMensEnv.BackColor = System.Drawing.Color.White;
-            this.txbMensEnv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txbMensEnv.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.txbMensEnv.Location = new System.Drawing.Point(332, 3);
-            this.txbMensEnv.Multiline = false;
-            this.txbMensEnv.Name = "txbMensEnv";
-            this.txbMensEnv.Size = new System.Drawing.Size(263, 22);
-            this.txbMensEnv.TabIndex = 16;
-            this.txbMensEnv.TabStop = false;
-            this.txbMensEnv.Text = "";
-            // 
-            // txbMensRecebida
-            // 
-            this.txbMensRecebida.BackColor = System.Drawing.Color.White;
-            this.txbMensRecebida.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txbMensRecebida.Dock = System.Windows.Forms.DockStyle.Right;
-            this.txbMensRecebida.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.txbMensRecebida.Location = new System.Drawing.Point(601, 0);
-            this.txbMensRecebida.Name = "txbMensRecebida";
-            this.txbMensRecebida.ReadOnly = true;
-            this.txbMensRecebida.Size = new System.Drawing.Size(165, 194);
-            this.txbMensRecebida.TabIndex = 15;
-            this.txbMensRecebida.TabStop = false;
-            this.txbMensRecebida.Text = "";
-#endif
-// 
-// panel1
-// 
-#if DEBUG
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.lbVel);
-#endif
             this.panel1.Controls.Add(this.btnUP);
             this.panel1.Controls.Add(this.btnDN);
             this.panel1.Controls.Add(this.btnStop);
@@ -183,45 +122,10 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(166, 194);
             this.panel1.TabIndex = 14;
-#if DEBUG
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(42, 165);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(27, 26);
-            this.button2.TabIndex = 14;
-            this.button2.TabStop = false;
-            this.button2.Text = "Ω";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(9, 165);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(27, 26);
-            this.button1.TabIndex = 13;
-            this.button1.TabStop = false;
-            this.button1.Text = "γ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // lbVel
-            // 
-            this.lbVel.AutoSize = true;
-            this.lbVel.Location = new System.Drawing.Point(75, 175);
-            this.lbVel.Name = "lbVel";
-            this.lbVel.Size = new System.Drawing.Size(51, 13);
-            this.lbVel.TabIndex = 11;
-            this.lbVel.Text = "0.0 mm/s";
-#endif
             // 
             // btnUP
             // 
-            this.btnUP.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnUP.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUP.Location = new System.Drawing.Point(9, 3);
             this.btnUP.Name = "btnUP";
             this.btnUP.Size = new System.Drawing.Size(73, 46);
@@ -233,7 +137,7 @@
             // 
             // btnDN
             // 
-            this.btnDN.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnDN.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDN.Location = new System.Drawing.Point(9, 107);
             this.btnDN.Name = "btnDN";
             this.btnDN.Size = new System.Drawing.Size(73, 46);
@@ -245,7 +149,7 @@
             // 
             // btnStop
             // 
-            this.btnStop.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnStop.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStop.Location = new System.Drawing.Point(9, 55);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(73, 46);
@@ -257,7 +161,7 @@
             // 
             // btnFast
             // 
-            this.btnFast.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnFast.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFast.Location = new System.Drawing.Point(88, 55);
             this.btnFast.Name = "btnFast";
             this.btnFast.Size = new System.Drawing.Size(73, 46);
@@ -269,7 +173,7 @@
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("SansSerif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(203, 83);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -282,7 +186,7 @@
             // 
             this.lbPosition.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbPosition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbPosition.Font = new System.Drawing.Font("SansSerif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbPosition.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPosition.Location = new System.Drawing.Point(203, 101);
             this.lbPosition.Name = "lbPosition";
             this.lbPosition.Size = new System.Drawing.Size(120, 46);
@@ -292,7 +196,7 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("SansSerif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(203, 7);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -305,7 +209,7 @@
             // 
             this.lbLoad.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbLoad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbLoad.Font = new System.Drawing.Font("SansSerif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbLoad.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbLoad.Location = new System.Drawing.Point(203, 25);
             this.lbLoad.Name = "lbLoad";
             this.lbLoad.Size = new System.Drawing.Size(120, 46);
@@ -342,10 +246,10 @@
             // 
             this.lxy.AutoSize = true;
             this.lxy.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lxy.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lxy.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lxy.Location = new System.Drawing.Point(121, 153);
             this.lxy.Name = "lxy";
-            this.lxy.Size = new System.Drawing.Size(19, 12);
+            this.lxy.Size = new System.Drawing.Size(21, 14);
             this.lxy.TabIndex = 6;
             this.lxy.Text = "lxy";
             this.lxy.Visible = false;
@@ -361,7 +265,8 @@
             chartArea1.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
             chartArea1.AxisX.Title = "t(s)";
             chartArea1.AxisX.TitleAlignment = System.Drawing.StringAlignment.Far;
-            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisX2.TitleFont = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             chartArea1.AxisY.IsLabelAutoFit = false;
             chartArea1.AxisY.LabelStyle.Format = "0.0";
             chartArea1.AxisY.MaximumAutoSize = 90F;
@@ -370,7 +275,8 @@
             chartArea1.AxisY.ScaleView.SmallScrollMinSize = 10D;
             chartArea1.AxisY.Title = "F(gf)";
             chartArea1.AxisY.TitleAlignment = System.Drawing.StringAlignment.Far;
-            chartArea1.AxisY.TitleFont = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            chartArea1.AxisY.TitleFont = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisY2.TitleFont = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             chartArea1.Name = "ChartArea1";
             this.Graph.ChartAreas.Add(chartArea1);
             this.Graph.Cursor = System.Windows.Forms.Cursors.Default;
@@ -413,7 +319,7 @@
             this.lbInformations.BackColor = System.Drawing.Color.White;
             this.lbInformations.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbInformations.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbInformations.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbInformations.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbInformations.Location = new System.Drawing.Point(0, 0);
             this.lbInformations.Name = "lbInformations";
             this.lbInformations.ReadOnly = true;
@@ -424,6 +330,7 @@
             // 
             // menuStrip
             // 
+            this.menuStrip.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoStripMenu,
             this.TAStripMenu,
@@ -440,7 +347,7 @@
             this.arquivoStripMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exportarComoToolStripMenuItem});
             this.arquivoStripMenu.Name = "arquivoStripMenu";
-            this.arquivoStripMenu.Size = new System.Drawing.Size(71, 20);
+            this.arquivoStripMenu.Size = new System.Drawing.Size(76, 20);
             this.arquivoStripMenu.Text = "Resultado";
             // 
             // exportarComoToolStripMenuItem
@@ -450,27 +357,27 @@
             this.ToolStripMenuExportCSV,
             this.ToolStripMenuExportPDF});
             this.exportarComoToolStripMenuItem.Name = "exportarComoToolStripMenuItem";
-            this.exportarComoToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.exportarComoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exportarComoToolStripMenuItem.Text = "Exportar";
             // 
             // ToolStripMenuExportExcel
             // 
             this.ToolStripMenuExportExcel.Name = "ToolStripMenuExportExcel";
-            this.ToolStripMenuExportExcel.Size = new System.Drawing.Size(178, 22);
+            this.ToolStripMenuExportExcel.Size = new System.Drawing.Size(180, 22);
             this.ToolStripMenuExportExcel.Text = "Exportar como .xlsx";
             this.ToolStripMenuExportExcel.Click += new System.EventHandler(this.ToolStripMenuExportExcel_Click);
             // 
             // ToolStripMenuExportCSV
             // 
             this.ToolStripMenuExportCSV.Name = "ToolStripMenuExportCSV";
-            this.ToolStripMenuExportCSV.Size = new System.Drawing.Size(178, 22);
+            this.ToolStripMenuExportCSV.Size = new System.Drawing.Size(180, 22);
             this.ToolStripMenuExportCSV.Text = "Exportar como .csv";
             this.ToolStripMenuExportCSV.Click += new System.EventHandler(this.ToolStripMenuExportCSV_Click);
             // 
             // ToolStripMenuExportPDF
             // 
             this.ToolStripMenuExportPDF.Name = "ToolStripMenuExportPDF";
-            this.ToolStripMenuExportPDF.Size = new System.Drawing.Size(178, 22);
+            this.ToolStripMenuExportPDF.Size = new System.Drawing.Size(180, 22);
             this.ToolStripMenuExportPDF.Text = "Exportar como .pdf";
             this.ToolStripMenuExportPDF.Click += new System.EventHandler(this.ToolStripMenuExportPDF_Click);
             // 
@@ -482,48 +389,48 @@
             this.tararToolStripMenuItem,
             this.zeroMáquinaToolStripMenuItem});
             this.TAStripMenu.Name = "TAStripMenu";
-            this.TAStripMenu.Size = new System.Drawing.Size(39, 20);
+            this.TAStripMenu.Size = new System.Drawing.Size(38, 20);
             this.TAStripMenu.Text = "T.A.";
             // 
             // rodarTesteStripMenu
             // 
             this.rodarTesteStripMenu.Name = "rodarTesteStripMenu";
-            this.rodarTesteStripMenu.Size = new System.Drawing.Size(180, 22);
+            this.rodarTesteStripMenu.Size = new System.Drawing.Size(158, 22);
             this.rodarTesteStripMenu.Text = "Rodar teste...";
             this.rodarTesteStripMenu.Click += new System.EventHandler(this.rodarTesteToolStripMenuItem_Click);
             // 
             // calibrarToolStripMenuItem
             // 
             this.calibrarToolStripMenuItem.Name = "calibrarToolStripMenuItem";
-            this.calibrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.calibrarToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.calibrarToolStripMenuItem.Text = "Calibrar...";
             this.calibrarToolStripMenuItem.Click += new System.EventHandler(this.calibrarToolStripMenuItem_Click);
             // 
             // tararToolStripMenuItem
             // 
             this.tararToolStripMenuItem.Name = "tararToolStripMenuItem";
-            this.tararToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tararToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.tararToolStripMenuItem.Text = "Tarar...";
             this.tararToolStripMenuItem.Click += new System.EventHandler(this.tararToolStripMenuItem_Click);
             // 
             // zeroMáquinaToolStripMenuItem
             // 
             this.zeroMáquinaToolStripMenuItem.Name = "zeroMáquinaToolStripMenuItem";
-            this.zeroMáquinaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.zeroMáquinaToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.zeroMáquinaToolStripMenuItem.Text = "Zero Máquina...";
             this.zeroMáquinaToolStripMenuItem.Click += new System.EventHandler(this.zeroMáquinaToolStripMenuItem_Click);
             // 
             // configuracoesToolStripMenuItem
             // 
             this.configuracoesToolStripMenuItem.Name = "configuracoesToolStripMenuItem";
-            this.configuracoesToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
+            this.configuracoesToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
             this.configuracoesToolStripMenuItem.Text = "Configurações";
             this.configuracoesToolStripMenuItem.Click += new System.EventHandler(this.configuracoesToolStripMenuItem_Click);
             // 
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.sobreToolStripMenuItem.Text = "Sobre";
             this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
@@ -547,7 +454,6 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panelGraph.ResumeLayout(false);
             this.panelGraph.PerformLayout();

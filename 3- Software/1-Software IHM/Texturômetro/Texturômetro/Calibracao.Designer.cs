@@ -33,6 +33,7 @@
             this.btnCancel1 = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.tab2 = new System.Windows.Forms.TabPage();
+            this.btnReset = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,6 +44,14 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel2 = new System.Windows.Forms.Button();
             this.btnOk = new System.Windows.Forms.Button();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txScale = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnCancel3 = new System.Windows.Forms.Button();
+            this.btnOk2 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabs.SuspendLayout();
             this.tab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -50,12 +59,16 @@
             this.tab2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabs
             // 
             this.tabs.Controls.Add(this.tab1);
             this.tabs.Controls.Add(this.tab2);
+            this.tabs.Controls.Add(this.tabPage1);
             this.tabs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabs.Location = new System.Drawing.Point(0, 0);
             this.tabs.Multiline = true;
@@ -79,7 +92,7 @@
             // 
             // label7
             // 
-            this.label7.Font = new System.Drawing.Font("SansSerif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(140, 6);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(186, 76);
@@ -109,6 +122,7 @@
             // 
             // btnCancel1
             // 
+            this.btnCancel1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel1.Location = new System.Drawing.Point(5, 4);
             this.btnCancel1.Name = "btnCancel1";
             this.btnCancel1.Size = new System.Drawing.Size(75, 23);
@@ -119,6 +133,7 @@
             // 
             // btnNext
             // 
+            this.btnNext.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.Location = new System.Drawing.Point(248, 3);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
@@ -130,6 +145,7 @@
             // tab2
             // 
             this.tab2.BackColor = System.Drawing.Color.Transparent;
+            this.tab2.Controls.Add(this.btnReset);
             this.tab2.Controls.Add(this.label3);
             this.tab2.Controls.Add(this.label2);
             this.tab2.Controls.Add(this.label1);
@@ -141,13 +157,24 @@
             this.tab2.Location = new System.Drawing.Point(4, 22);
             this.tab2.Name = "tab2";
             this.tab2.Padding = new System.Windows.Forms.Padding(3);
-            this.tab2.Size = new System.Drawing.Size(334, 263);
+            this.tab2.Size = new System.Drawing.Size(334, 290);
             this.tab2.TabIndex = 1;
             this.tab2.Text = "tab2";
             // 
+            // btnReset
+            // 
+            this.btnReset.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(6, 210);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 13;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("SansSerif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(155, 8);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(171, 117);
@@ -158,25 +185,26 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(158, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 14);
+            this.label2.Size = new System.Drawing.Size(132, 15);
             this.label2.TabIndex = 9;
             this.label2.Text = "Carga para calibração:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(276, 184);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 14);
+            this.label1.Size = new System.Drawing.Size(14, 15);
             this.label1.TabIndex = 8;
             this.label1.Text = "g";
             // 
             // txCal
             // 
+            this.txCal.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txCal.Location = new System.Drawing.Point(155, 181);
             this.txCal.Name = "txCal";
             this.txCal.Size = new System.Drawing.Size(117, 20);
@@ -216,13 +244,14 @@
             this.panel2.Controls.Add(this.btnCancel2);
             this.panel2.Controls.Add(this.btnOk);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(3, 231);
+            this.panel2.Location = new System.Drawing.Point(3, 258);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(328, 29);
             this.panel2.TabIndex = 11;
             // 
             // btnCancel2
             // 
+            this.btnCancel2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel2.Location = new System.Drawing.Point(5, 4);
             this.btnCancel2.Name = "btnCancel2";
             this.btnCancel2.Size = new System.Drawing.Size(75, 23);
@@ -233,6 +262,7 @@
             // 
             // btnOk
             // 
+            this.btnOk.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOk.Location = new System.Drawing.Point(248, 3);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
@@ -240,6 +270,92 @@
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.label5);
+            this.tabPage1.Controls.Add(this.txScale);
+            this.tabPage1.Controls.Add(this.pictureBox3);
+            this.tabPage1.Controls.Add(this.panel3);
+            this.tabPage1.Controls.Add(this.label4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(334, 290);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "tab3";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(155, 107);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(125, 15);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Escala de calibração:";
+            // 
+            // txScale
+            // 
+            this.txScale.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txScale.Location = new System.Drawing.Point(155, 124);
+            this.txScale.Name = "txScale";
+            this.txScale.Size = new System.Drawing.Size(149, 20);
+            this.txScale.TabIndex = 13;
+            this.txScale.Text = "-144,7732018";
+            this.txScale.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txScale_KeyPress);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(141, 196);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btnCancel3);
+            this.panel3.Controls.Add(this.btnOk2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 261);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(334, 29);
+            this.panel3.TabIndex = 17;
+            // 
+            // btnCancel3
+            // 
+            this.btnCancel3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel3.Location = new System.Drawing.Point(5, 4);
+            this.btnCancel3.Name = "btnCancel3";
+            this.btnCancel3.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel3.TabIndex = 5;
+            this.btnCancel3.Text = "Cancelar";
+            this.btnCancel3.UseVisualStyleBackColor = true;
+            this.btnCancel3.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnOk2
+            // 
+            this.btnOk2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk2.Location = new System.Drawing.Point(248, 3);
+            this.btnOk2.Name = "btnOk2";
+            this.btnOk2.Size = new System.Drawing.Size(75, 23);
+            this.btnOk2.TabIndex = 4;
+            this.btnOk2.Text = "Ok";
+            this.btnOk2.UseVisualStyleBackColor = true;
+            this.btnOk2.Click += new System.EventHandler(this.btnOk2_Click);
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(155, 4);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(171, 117);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "1. Digite o valor de correção de escala da célula de carga.\r\n\r\n2. Pressione \"Ok\"." +
+    "\r\n";
             // 
             // Calibracao
             // 
@@ -261,6 +377,10 @@
             this.tab2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -285,5 +405,14 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txScale;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnCancel3;
+        private System.Windows.Forms.Button btnOk2;
     }
 }

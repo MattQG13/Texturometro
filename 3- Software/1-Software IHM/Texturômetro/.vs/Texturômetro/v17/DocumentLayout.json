@@ -3,24 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\textur\u00F4metro\\texturometro form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|solutionrelative:textur\u00F4metro\\texturometro form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|c:\\users\\mateus\\onedrive - funda\u00E7\u00E3o salvador arena\\#tcc textur\u00F4metro\\3- software\\1-software ihm\\textur\u00F4metro\\textur\u00F4metro\\serialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|solutionrelative:textur\u00F4metro\\serialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\textur\u00F4metro\\texturometro form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|c:\\users\\mateus\\onedrive - funda\u00E7\u00E3o salvador arena\\#tcc textur\u00F4metro\\3- software\\1-software ihm\\textur\u00F4metro\\textur\u00F4metro\\texturometro form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|solutionrelative:textur\u00F4metro\\texturometro form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\textur\u00F4metro\\diagramadeclasses.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|solutionrelative:textur\u00F4metro\\diagramadeclasses.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Texturometro||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\textur\u00F4metro\\texturometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|solutionrelative:textur\u00F4metro\\texturometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|c:\\users\\mateus\\onedrive - funda\u00E7\u00E3o salvador arena\\#tcc textur\u00F4metro\\3- software\\1-software ihm\\textur\u00F4metro\\textur\u00F4metro\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 116,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,64 +40,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SerialManager.cs",
-              "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\SerialManager.cs",
-              "RelativeDocumentMoniker": "Textur\u00F4metro\\SerialManager.cs",
-              "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\SerialManager.cs",
-              "RelativeToolTip": "Textur\u00F4metro\\SerialManager.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAqwHcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T01:33:14.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DiagramaDeClasses.cd",
-              "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\DiagramaDeClasses.cd",
-              "RelativeDocumentMoniker": "Textur\u00F4metro\\DiagramaDeClasses.cd",
-              "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\DiagramaDeClasses.cd",
-              "RelativeToolTip": "Textur\u00F4metro\\DiagramaDeClasses.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2024-05-28T12:01:47.269Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Texturometro Form.cs",
-              "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro Form.cs",
-              "RelativeDocumentMoniker": "Textur\u00F4metro\\Texturometro Form.cs",
-              "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro Form.cs",
-              "RelativeToolTip": "Textur\u00F4metro\\Texturometro Form.cs",
-              "ViewState": "AQIAAIUAAAAAAAAAAAAIwJsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T00:58:44.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Texturometro Form.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro Form.cs",
               "RelativeDocumentMoniker": "Textur\u00F4metro\\Texturometro Form.cs",
               "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro Form.cs [Design]",
               "RelativeToolTip": "Textur\u00F4metro\\Texturometro Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T00:58:40.441Z",
+              "WhenOpened": "2025-04-18T22:59:58.5Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Texturometro.cs",
-              "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro.cs",
-              "RelativeDocumentMoniker": "Textur\u00F4metro\\Texturometro.cs",
-              "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro.cs",
-              "RelativeToolTip": "Textur\u00F4metro\\Texturometro.cs",
-              "ViewState": "AQIAADMBAAAAAAAAAIBJwDUBAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T00:54:17.897Z"
+              "DocumentIndex": 1,
+              "Title": "Texturometro",
+              "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro.csproj",
+              "RelativeDocumentMoniker": "Textur\u00F4metro\\Texturometro.csproj",
+              "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro.csproj",
+              "RelativeToolTip": "Textur\u00F4metro\\Texturometro.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-18T22:42:33.031Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -141,5 +141,4 @@ C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3- Softw
 C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3- Software\1-Software IHM\Texturômetro\Texturômetro\obj\Debug\Texturometro.csproj.CoreCompileInputs.cache
 C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3- Software\1-Software IHM\Texturômetro\Texturômetro\obj\Debug\Titan Texture.exe
 C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3- Software\1-Software IHM\Texturômetro\Texturômetro\obj\Debug\Titan Texture.pdb
-C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3- Software\1-Software IHM\Texturômetro\Texturômetro\obj\Debug\Texturometro.csproj.SuggestedBindingRedirects.cache
-C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3- Software\1-Software IHM\Texturômetro\Texturômetro\obj\Debug\Texturometro.csproj.CopyComplete
+C:\Users\mateus\OneDrive - Fundação Salvador Arena\#TCC Texturômetro\3- Software\1-Software IHM\Texturômetro\Texturômetro\obj\Debug\Texturom.A4BAA14A.Up2Date

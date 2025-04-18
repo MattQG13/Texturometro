@@ -599,8 +599,8 @@ namespace Texturometer {
 
 #if DEBUG //----------------------------------------------------
         private void button1_Click_1(object sender,EventArgs e) {
-            tex.testRunning=false;
-            execFimTeste(this,EventArgs.Empty);
+            /*tex.testRunning=false;
+            execFimTeste(this,EventArgs.Empty);*/  
         }
 
         private void btnEnv_Click(object sender,EventArgs e) {
@@ -631,9 +631,9 @@ namespace Texturometer {
 #if DEBUG //----------------------------------------------------
 
         private void button2_Click(object sender,EventArgs e) {
-            velRampa=0;
+            /*velRampa=0;
             tex.Motor.Start(ModoMotor.Subir,0.1);
-            tmRampa.Start();
+            tmRampa.Start();*/
         }
 
         private void Rampa (object sender, EventArgs e) {

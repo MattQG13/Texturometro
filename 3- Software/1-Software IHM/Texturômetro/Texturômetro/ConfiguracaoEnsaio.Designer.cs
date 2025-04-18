@@ -158,25 +158,26 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(333, 95);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(32, 12);
+            this.label12.Size = new System.Drawing.Size(32, 14);
             this.label12.TabIndex = 48;
             this.label12.Text = "mm/s";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(12, 95);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(128, 12);
+            this.label14.Size = new System.Drawing.Size(130, 14);
             this.label14.TabIndex = 47;
             this.label14.Text = "Velocidade pós-teste:......";
             // 
             // txVelPosTeste
             // 
+            this.txVelPosTeste.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txVelPosTeste.Location = new System.Drawing.Point(143, 91);
             this.txVelPosTeste.Name = "txVelPosTeste";
             this.txVelPosTeste.Size = new System.Drawing.Size(188, 20);
@@ -186,35 +187,36 @@
             // lbUnDim2
             // 
             this.lbUnDim2.AutoSize = true;
-            this.lbUnDim2.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbUnDim2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbUnDim2.Location = new System.Drawing.Point(333, 343);
             this.lbUnDim2.Name = "lbUnDim2";
-            this.lbUnDim2.Size = new System.Drawing.Size(23, 12);
+            this.lbUnDim2.Size = new System.Drawing.Size(23, 14);
             this.lbUnDim2.TabIndex = 45;
             this.lbUnDim2.Text = "mm";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label8.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(333, 317);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 12);
+            this.label8.Size = new System.Drawing.Size(23, 14);
             this.label8.TabIndex = 44;
             this.label8.Text = "mm";
             // 
             // lbDim2
             // 
             this.lbDim2.AutoSize = true;
-            this.lbDim2.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbDim2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDim2.Location = new System.Drawing.Point(12, 343);
             this.lbDim2.Name = "lbDim2";
-            this.lbDim2.Size = new System.Drawing.Size(130, 12);
+            this.lbDim2.Size = new System.Drawing.Size(129, 14);
             this.lbDim2.TabIndex = 43;
             this.lbDim2.Text = "Comprimento:...................";
             // 
             // txDim2
             // 
+            this.txDim2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txDim2.Location = new System.Drawing.Point(143, 339);
             this.txDim2.Name = "txDim2";
             this.txDim2.Size = new System.Drawing.Size(188, 20);
@@ -223,6 +225,7 @@
             // 
             // txDim1
             // 
+            this.txDim1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txDim1.Location = new System.Drawing.Point(143, 313);
             this.txDim1.Name = "txDim1";
             this.txDim1.Size = new System.Drawing.Size(188, 20);
@@ -233,20 +236,20 @@
             // lbDim1
             // 
             this.lbDim1.AutoSize = true;
-            this.lbDim1.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbDim1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDim1.Location = new System.Drawing.Point(12, 317);
             this.lbDim1.Name = "lbDim1";
-            this.lbDim1.Size = new System.Drawing.Size(130, 12);
+            this.lbDim1.Size = new System.Drawing.Size(130, 14);
             this.lbDim1.TabIndex = 41;
             this.lbDim1.Text = "Diâmetro:..........................";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(12, 290);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 12);
+            this.label5.Size = new System.Drawing.Size(130, 14);
             this.label5.TabIndex = 39;
             this.label5.Text = "Tipo de Probe:..................";
             // 
@@ -258,28 +261,30 @@
             "Tração"});
             this.cbProbe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProbe.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbProbe.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbProbe.FormattingEnabled = true;
             this.cbProbe.Items.AddRange(new object[] {
             "Cilíndrica",
             "Retangular"});
             this.cbProbe.Location = new System.Drawing.Point(143, 286);
             this.cbProbe.Name = "cbProbe";
-            this.cbProbe.Size = new System.Drawing.Size(188, 21);
+            this.cbProbe.Size = new System.Drawing.Size(188, 22);
             this.cbProbe.TabIndex = 11;
             this.cbProbe.SelectedIndexChanged += new System.EventHandler(this.cb_SelectedIndexChanged);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label15.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(12, 379);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(96, 12);
+            this.label15.Size = new System.Drawing.Size(95, 14);
             this.label15.TabIndex = 37;
             this.label15.Text = "Nome da Amostra:";
             // 
             // txNome
             // 
+            this.txNome.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txNome.Location = new System.Drawing.Point(13, 394);
             this.txNome.Name = "txNome";
             this.txNome.Size = new System.Drawing.Size(496, 20);
@@ -288,65 +293,66 @@
             // lbUnTrigger
             // 
             this.lbUnTrigger.AutoSize = true;
-            this.lbUnTrigger.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbUnTrigger.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbUnTrigger.Location = new System.Drawing.Point(333, 235);
             this.lbUnTrigger.Name = "lbUnTrigger";
-            this.lbUnTrigger.Size = new System.Drawing.Size(14, 12);
+            this.lbUnTrigger.Size = new System.Drawing.Size(17, 14);
             this.lbUnTrigger.TabIndex = 35;
             this.lbUnTrigger.Text = "gf";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label13.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(333, 178);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(11, 12);
+            this.label13.Size = new System.Drawing.Size(13, 14);
             this.label13.TabIndex = 34;
             this.label13.Text = "s";
             // 
             // lbUnTarget
             // 
             this.lbUnTarget.AutoSize = true;
-            this.lbUnTarget.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbUnTarget.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbUnTarget.Location = new System.Drawing.Point(333, 150);
             this.lbUnTarget.Name = "lbUnTarget";
-            this.lbUnTarget.Size = new System.Drawing.Size(15, 12);
+            this.lbUnTarget.Size = new System.Drawing.Size(17, 14);
             this.lbUnTarget.TabIndex = 33;
             this.lbUnTarget.Text = "%";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(333, 69);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(32, 12);
+            this.label11.Size = new System.Drawing.Size(32, 14);
             this.label11.TabIndex = 32;
             this.label11.Text = "mm/s";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label10.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(333, 41);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(32, 12);
+            this.label10.Size = new System.Drawing.Size(32, 14);
             this.label10.TabIndex = 31;
             this.label10.Text = "mm/s";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(12, 263);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(130, 12);
+            this.label9.Size = new System.Drawing.Size(129, 14);
             this.label9.TabIndex = 30;
             this.label9.Text = "Tipo de Tara:....................";
             // 
             // txTrigger
             // 
+            this.txTrigger.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txTrigger.Location = new System.Drawing.Point(143, 231);
             this.txTrigger.Name = "txTrigger";
             this.txTrigger.Size = new System.Drawing.Size(188, 20);
@@ -357,25 +363,26 @@
             // lbTrigger
             // 
             this.lbTrigger.AutoSize = true;
-            this.lbTrigger.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbTrigger.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTrigger.Location = new System.Drawing.Point(12, 235);
             this.lbTrigger.Name = "lbTrigger";
-            this.lbTrigger.Size = new System.Drawing.Size(130, 12);
+            this.lbTrigger.Size = new System.Drawing.Size(131, 14);
             this.lbTrigger.TabIndex = 28;
             this.lbTrigger.Text = "Força de detecção...........";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(12, 206);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 12);
+            this.label7.Size = new System.Drawing.Size(129, 14);
             this.label7.TabIndex = 27;
             this.label7.Text = "Tipo de detecção:............";
             // 
             // txTime
             // 
+            this.txTime.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txTime.Location = new System.Drawing.Point(143, 174);
             this.txTime.Name = "txTime";
             this.txTime.Size = new System.Drawing.Size(188, 20);
@@ -385,6 +392,7 @@
             // 
             // txTarget
             // 
+            this.txTarget.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txTarget.Location = new System.Drawing.Point(143, 146);
             this.txTarget.Name = "txTarget";
             this.txTarget.Size = new System.Drawing.Size(188, 20);
@@ -395,30 +403,30 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(12, 178);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(129, 12);
+            this.label6.Size = new System.Drawing.Size(128, 14);
             this.label6.TabIndex = 24;
             this.label6.Text = "Tempo:.............................";
             // 
             // lbTarget
             // 
             this.lbTarget.AutoSize = true;
-            this.lbTarget.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbTarget.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTarget.Location = new System.Drawing.Point(12, 150);
             this.lbTarget.Name = "lbTarget";
-            this.lbTarget.Size = new System.Drawing.Size(128, 12);
+            this.lbTarget.Size = new System.Drawing.Size(129, 14);
             this.lbTarget.TabIndex = 23;
             this.lbTarget.Text = "Deformação:....................";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(12, 121);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(130, 12);
+            this.label4.Size = new System.Drawing.Size(131, 14);
             this.label4.TabIndex = 22;
             this.label4.Text = "Tipo de alvo:.....................";
             // 
@@ -426,6 +434,7 @@
             // 
             this.cbTarget.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTarget.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbTarget.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTarget.FormattingEnabled = true;
             this.cbTarget.Items.AddRange(new object[] {
             "Deformação",
@@ -433,17 +442,17 @@
             "Força"});
             this.cbTarget.Location = new System.Drawing.Point(143, 117);
             this.cbTarget.Name = "cbTarget";
-            this.cbTarget.Size = new System.Drawing.Size(188, 21);
+            this.cbTarget.Size = new System.Drawing.Size(188, 22);
             this.cbTarget.TabIndex = 5;
             this.cbTarget.SelectedIndexChanged += new System.EventHandler(this.cb_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 12);
+            this.label2.Size = new System.Drawing.Size(128, 14);
             this.label2.TabIndex = 18;
             this.label2.Text = "Velocidade de Teste:.......";
             // 
@@ -451,23 +460,24 @@
             // 
             this.cbTrigger.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTrigger.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbTrigger.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTrigger.FormattingEnabled = true;
             this.cbTrigger.Items.AddRange(new object[] {
             "Auto (Força)",
             "Distância"});
             this.cbTrigger.Location = new System.Drawing.Point(143, 202);
             this.cbTrigger.Name = "cbTrigger";
-            this.cbTrigger.Size = new System.Drawing.Size(188, 21);
+            this.cbTrigger.Size = new System.Drawing.Size(188, 22);
             this.cbTrigger.TabIndex = 8;
             this.cbTrigger.SelectedIndexChanged += new System.EventHandler(this.cb_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 12);
+            this.label1.Size = new System.Drawing.Size(131, 14);
             this.label1.TabIndex = 16;
             this.label1.Text = "Velocidade pré-teste:.......";
             // 
@@ -475,22 +485,23 @@
             // 
             this.cbTara.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTara.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbTara.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTara.FormattingEnabled = true;
             this.cbTara.Items.AddRange(new object[] {
             "Auto",
             "Manual"});
             this.cbTara.Location = new System.Drawing.Point(143, 259);
             this.cbTara.Name = "cbTara";
-            this.cbTara.Size = new System.Drawing.Size(188, 21);
+            this.cbTara.Size = new System.Drawing.Size(188, 22);
             this.cbTara.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 12);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 12);
+            this.label3.Size = new System.Drawing.Size(132, 14);
             this.label3.TabIndex = 14;
             this.label3.Text = "Tipo de teste:....................";
             // 
@@ -502,6 +513,7 @@
             "Tração"});
             this.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTipo.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbTipo.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTipo.FormattingEnabled = true;
             this.cbTipo.Items.AddRange(new object[] {
             "TPA",
@@ -509,12 +521,13 @@
             "Tração"});
             this.cbTipo.Location = new System.Drawing.Point(143, 8);
             this.cbTipo.Name = "cbTipo";
-            this.cbTipo.Size = new System.Drawing.Size(188, 21);
+            this.cbTipo.Size = new System.Drawing.Size(188, 22);
             this.cbTipo.TabIndex = 1;
             this.cbTipo.SelectedIndexChanged += new System.EventHandler(this.cb_SelectedIndexChanged);
             // 
             // txVelPreTeste
             // 
+            this.txVelPreTeste.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txVelPreTeste.Location = new System.Drawing.Point(143, 37);
             this.txVelPreTeste.Name = "txVelPreTeste";
             this.txVelPreTeste.Size = new System.Drawing.Size(188, 20);
@@ -524,6 +537,7 @@
             // 
             // txVel
             // 
+            this.txVel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txVel.Location = new System.Drawing.Point(143, 65);
             this.txVel.Name = "txVel";
             this.txVel.Size = new System.Drawing.Size(188, 20);
@@ -534,6 +548,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Location = new System.Drawing.Point(8, 431);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
@@ -544,6 +559,7 @@
             // 
             // Iniciar
             // 
+            this.Iniciar.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Iniciar.Location = new System.Drawing.Point(709, 433);
             this.Iniciar.Name = "Iniciar";
             this.Iniciar.Size = new System.Drawing.Size(75, 23);

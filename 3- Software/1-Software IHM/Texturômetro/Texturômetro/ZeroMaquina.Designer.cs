@@ -86,7 +86,7 @@
             // 
             // label7
             // 
-            this.label7.Font = new System.Drawing.Font("SansSerif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(129, 6);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(206, 118);
@@ -116,6 +116,7 @@
             // 
             // btnNext
             // 
+            this.btnNext.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.Location = new System.Drawing.Point(257, 3);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
@@ -126,6 +127,7 @@
             // 
             // btnCancel1
             // 
+            this.btnCancel1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel1.Location = new System.Drawing.Point(3, 3);
             this.btnCancel1.Name = "btnCancel1";
             this.btnCancel1.Size = new System.Drawing.Size(75, 23);
@@ -161,7 +163,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.groupBox1.Location = new System.Drawing.Point(119, 6);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(216, 137);
@@ -171,25 +173,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 12);
+            this.label1.Size = new System.Drawing.Size(116, 14);
             this.label1.TabIndex = 11;
             this.label1.Text = "Velocidade de retorno:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(170, 109);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(23, 12);
+            this.label6.Size = new System.Drawing.Size(23, 14);
             this.label6.TabIndex = 16;
             this.label6.Text = "mm";
             // 
             // txbCargaLimite
             // 
+            this.txbCargaLimite.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCargaLimite.Location = new System.Drawing.Point(4, 67);
             this.txbCargaLimite.Name = "txbCargaLimite";
             this.txbCargaLimite.Size = new System.Drawing.Size(164, 20);
@@ -199,6 +202,7 @@
             // 
             // txbVelociadeZero
             // 
+            this.txbVelociadeZero.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbVelociadeZero.Location = new System.Drawing.Point(4, 28);
             this.txbVelociadeZero.Name = "txbVelociadeZero";
             this.txbVelociadeZero.Size = new System.Drawing.Size(164, 20);
@@ -209,15 +213,16 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(170, 70);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 12);
+            this.label5.Size = new System.Drawing.Size(17, 14);
             this.label5.TabIndex = 15;
             this.label5.Text = "gf";
             // 
             // txbFinalPosition
             // 
+            this.txbFinalPosition.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbFinalPosition.Location = new System.Drawing.Point(4, 106);
             this.txbFinalPosition.Name = "txbFinalPosition";
             this.txbFinalPosition.Size = new System.Drawing.Size(164, 20);
@@ -228,35 +233,36 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(170, 31);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 12);
+            this.label4.Size = new System.Drawing.Size(32, 14);
             this.label4.TabIndex = 14;
             this.label4.Text = "mm/s";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(5, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 12);
+            this.label2.Size = new System.Drawing.Size(102, 14);
             this.label2.TabIndex = 12;
             this.label2.Text = "Carga de detecção:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("SansSerif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(6, 91);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 12);
+            this.label3.Size = new System.Drawing.Size(104, 14);
             this.label3.TabIndex = 13;
             this.label3.Text = "Distância de retorno";
             // 
             // btnZerar
             // 
+            this.btnZerar.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZerar.Location = new System.Drawing.Point(126, 149);
             this.btnZerar.Name = "btnZerar";
             this.btnZerar.Size = new System.Drawing.Size(75, 23);
@@ -305,6 +311,7 @@
             // 
             // btnFinsh
             // 
+            this.btnFinsh.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFinsh.Location = new System.Drawing.Point(257, 3);
             this.btnFinsh.Name = "btnFinsh";
             this.btnFinsh.Size = new System.Drawing.Size(75, 23);
@@ -315,6 +322,7 @@
             // 
             // btnCancel2
             // 
+            this.btnCancel2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel2.Location = new System.Drawing.Point(3, 3);
             this.btnCancel2.Name = "btnCancel2";
             this.btnCancel2.Size = new System.Drawing.Size(75, 23);
