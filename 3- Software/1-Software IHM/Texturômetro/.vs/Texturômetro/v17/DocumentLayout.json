@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|c:\\users\\mateus\\onedrive - funda\u00E7\u00E3o salvador arena\\#tcc textur\u00F4metro\\3- software\\1-software ihm\\textur\u00F4metro\\textur\u00F4metro\\texturometro form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|solutionrelative:textur\u00F4metro\\texturometro form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Texturometro||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B2F069-2D60-4197-817E-A75C72C69B08}|Textur\u00F4metro\\Texturometro.csproj|c:\\users\\mateus\\onedrive - funda\u00E7\u00E3o salvador arena\\#tcc textur\u00F4metro\\3- software\\1-software ihm\\textur\u00F4metro\\textur\u00F4metro\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 116,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Texturometro Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro Form.cs",
+              "RelativeDocumentMoniker": "Textur\u00F4metro\\Texturometro Form.cs",
+              "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro Form.cs [Design]",
+              "RelativeToolTip": "Textur\u00F4metro\\Texturometro Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:59:58.5Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Texturometro",
+              "DocumentMoniker": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro.csproj",
+              "RelativeDocumentMoniker": "Textur\u00F4metro\\Texturometro.csproj",
+              "ToolTip": "C:\\Users\\mateus\\OneDrive - Funda\u00E7\u00E3o Salvador Arena\\#TCC Textur\u00F4metro\\3- Software\\1-Software IHM\\Textur\u00F4metro\\Textur\u00F4metro\\Texturometro.csproj",
+              "RelativeToolTip": "Textur\u00F4metro\\Texturometro.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-18T22:42:33.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

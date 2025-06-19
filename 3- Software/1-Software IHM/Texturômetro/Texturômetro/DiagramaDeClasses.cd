@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="ClassesSuporteTexturometro.MotorArgument" Collapsed="true">
+    <Position X="36.25" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesSuporteTexturometro.Chave" Collapsed="true">
+    <Position X="24.5" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesSuporteTexturometro.Coord" Collapsed="true">
+    <Position X="32.5" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesSuporteTexturometro.Tabela" Collapsed="true">
+    <Position X="32.5" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAAAAAgAAAAAAAAQAAAAAABAAAAAAAAB0IAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_table" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoadCellTexturometro.LoadCell" Collapsed="true">
+    <Position X="22.25" Y="13.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Public" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EQACABAAADQBAAAAAAsAJBAAAAQAIABAEAAAAAAACIA=</HashCode>
+      <FileName>LoadCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotorTexturometro.Motor" Collapsed="true">
+    <Position X="27" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAACAAEAAAACAAAKEAIAgAIAAAAQBAAIA=</HashCode>
+      <FileName>Motor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialManagerTexturometro.SerialManager" Collapsed="true">
+    <Position X="35" Y="13.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>K4AAAAAAAAQEIABCAYADIAIAAA8CKAACBAAAAQmAGBQ=</HashCode>
+      <FileName>SerialManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TexturometroClass.Texturometro">
+    <Position X="22.25" Y="6.25" Width="8" />
+    <AssociationLine Name="SensorLI" Type="ClassesSuporteTexturometro.Chave">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.113" Y="0.083" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>GAAAAoJACQSkAxAEgABEUJIAAhACABABAQAAoEAAICE=</HashCode>
+      <FileName>Texturometro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Motor" />
+      <Field Name="Encoder" />
+      <Field Name="SensorLS" />
+      <Field Name="SensorLI" />
+      <Field Name="Teste" />
+      <Field Name="DadosTeste" />
+      <Field Name="LoadCell" />
+      <Field Name="Serial" />
+      <Field Name="Produto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProdutoTexturometro.CorpoDeProva" Collapsed="true">
+    <Position X="32.5" Y="13.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAgBAAAwAAAAEAAAAgAAAAAQAAAAAAAAAAAoCIACA=</HashCode>
+      <FileName>CorpoDeProva.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Resultado" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProbeTexturometro.Probe" Collapsed="true">
+    <Position X="17.75" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Probe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesSuporteTexturometro.SerialMessageArgument" Collapsed="true">
+    <Position X="34.25" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAABAAAAAgAAAABABAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnsaioTextuometro.EnsaioFactoryMethod" Collapsed="true">
+    <Position X="36.25" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Ensaio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnsaioTextuometro.Ensaio" Collapsed="true">
+    <Position X="13.5" Y="13.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Public" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="EnsaioTextuometro.Ensaio.Calculo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ensaio.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgEAACAAAAAAQ=</HashCode>
+      <FileName>Ensaio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnsaioTextuometro.EnsaioCompressao" Collapsed="true">
+    <Position X="12.75" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ensaio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnsaioTextuometro.EnsaioTracao" Collapsed="true">
+    <Position X="10.5" Y="15.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ensaio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DadosDeEnsaio.DataTest" Collapsed="true">
+    <Position X="17.75" Y="13.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Public" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIUAAAACAAAAIAAACAAKABAEAAAAAAgQAAAAAEAAAQ=</HashCode>
+      <FileName>DadosDoEnsaio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PontaDeTeste" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EnsaioTextuometro.EnsaioTPA" Collapsed="true">
+    <Position X="15" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ensaio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncoderMotor.Encoder" Collapsed="true">
+    <Position X="29.75" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAAAAwAAAAAAFAAAAAAAAQAAAAgAAAAAA=</HashCode>
+      <FileName>EncoderMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesSuporteTexturometro.ResultadosTPA" Collapsed="true">
+    <Position X="34.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABAAAgQAAAQECACAAAAChABAAAAAYAAACA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportacaoResultado.ExportacaoExcel" Collapsed="true">
+    <Position X="32.25" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Exportacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportacaoResultado.ExportacaoRelatorioPDF" Collapsed="true">
+    <Position X="32.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exportacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportacaoResultado.ExportacaoCSV" Collapsed="true">
+    <Position X="32.25" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Exportacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProbeTexturometro.ProbeCircular" Collapsed="true">
+    <Position X="15" Y="16.5" Width="2" />
+    <InheritanceLine Type="ProbeTexturometro.Probe" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.625" Y="15.562" />
+        <Point X="18.625" Y="16.346" />
+        <Point X="16.062" Y="16.346" />
+        <Point X="16.062" Y="16.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Probe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProbeTexturometro.ProbeRetangular" Collapsed="true">
+    <Position X="17.5" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Probe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProbeTexturometro.ProbeCisalhamento" Collapsed="true">
+    <Position X="20" Y="16.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Probe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProbeTexturometro.ProbeFactoryMethod" Collapsed="true">
+    <Position X="34.25" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Probe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ClassesSuporteTexturometro.Acao" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAKAAAAAACAAAAAAUBAEEAAACAAAAAg=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClassesSuporteTexturometro.TipoDeTeste" Collapsed="true">
+    <Position X="15.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAEAAAAEAAAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClassesSuporteTexturometro.ModoMotor" Collapsed="true">
+    <Position X="17.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAACAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClassesSuporteTexturometro.TipoTarget" Collapsed="true">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAgAAAABAAAAAAAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClassesSuporteTexturometro.TipoTrigger" Collapsed="true">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClassesSuporteTexturometro.TipoTara" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClassesSuporteTexturometro.TipoProbe" Collapsed="true">
+    <Position X="14" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAACAAAAAg=</HashCode>
+      <FileName>ClassesSuporte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
